@@ -6,5 +6,6 @@
 * 本地评分
 * web评分
 
-# faceScore.NewScorer(appCode) 生成一个Scorer,appCode就是购买该API所提供的验证码
-# faceScore.LocalScore(本地图片地址)  / Scorer.Webscore(web图片地址)
+## 处理步骤
+1. faceScore.NewScorer(appCode) 生成一个Scorer,appCode就是购买该API所提供的验证码
+2. faceScore.LocalScore(本地图片地址)  / Scorer.Webscore(web图片地址)
